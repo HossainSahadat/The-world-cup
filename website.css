@@ -239,11 +239,6 @@ a:hover span:nth-child(7) {
     text-decoration: none;
 }
 
-.choice-event button a {
-    text-decoration: none;
-    color: black;
-}
-
 .special-action {
     background-color: #242582;
     color: white;
