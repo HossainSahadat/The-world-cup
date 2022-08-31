@@ -259,42 +259,41 @@ a:hover span:nth-child(7) {
 
 .blog-img {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
+
+.blog-img h1 {
+    align-items: center;
+    justify-content: center;
 }
 
 .blog-img img {
-    width: 100%;
+    width: 80%;
     align-items: center;
     margin-top: -30px;
+    margin-left: 10px;
 }
 
-.blog-catagory .catagory-name {
-    font-size: 16px;
-    font-weight: 800;
+.blog-details h2 {
+    font-size: 25px;
+    margin: 30px 20px;
+    font-weight: 700;
     color: black;
-    margin: 10px 20px;
-    width: 30%;
-    padding: 5px 10px;
-    border: 1px solid gray;
-    border-radius: 5px;
+    margin-top: 30px;
+
 }
 
 .blog-details p {
-    font-size: 20pxpx;
-    margin: 5px 20px;
+    font-size: 15px;
+    margin: 15px 30px;
     font-weight: 700;
-    color: black;
+    color: gray;
     margin-top: 10px;
 
 }
 
-.blog-info {
-    margin: 10px 20px;
-}
-
-.fa-clock {
-    font-size: 20px;
-}
 
 .more-blogs {
     margin-top: 80px;
