@@ -204,3 +204,315 @@ a:hover span:nth-child(7) {
 }
 
 /* header part end */
+
+/* Popular blog part start */
+.blog-container {
+    width: 1260px;
+    margin: 100px auto;
+    margin-bottom: 50px
+}
+
+.populer-blogs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.choice-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 1000px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 30px 0px #00000026;
+
+}
+
+.choice-event button {
+    width: 60%;
+    margin: 20px 55px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.special-action {
+    background-color: #242582;
+    color: white;
+}
+
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 0px 30px 0px #00000026;
+
+}
+
+.blog-img {
+    text-align: center;
+
+}
+
+.blog-img img {
+    width: 100%;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.blog-catagory .catagory-name {
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+    margin: 10px 20px;
+    width: 30%;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.blog-details p {
+    font-size: 20pxpx;
+    margin: 5px 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.blog-info {
+    margin: 10px 20px;
+}
+
+.fa-clock {
+    font-size: 20px;
+}
+
+.more-blogs {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 36px;
+}
+
+.more-blogs-section {
+    width: 1000px;
+    margin: 0px auto;
+    margin-left: 600px;
+    margin-bottom: 50px
+}
+
+.see-more {
+    display: flex;
+    justify-content: end;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #00887a;
+}
+
+/* footer part start */
+footer {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+    color: #FFFFFF;
+    background-color: #0A0826;
+}
+
+.footer-info {
+    padding-top: 35px;
+
+    text-align: center;
+}
+
+.footer-info h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    color: #D9DBE1;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+footer i {
+    padding-left: 6px;
+    margin: 0px 12px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #00887a;
+    background: #00887a;
+    border-radius: 80px;
+    width: 35px;
+    height: 35px;
+    padding-top: 8px;
+}
+
+/* footer part end */
+/* Media quaries start*/
+@media only screen and (max-width: 640px) {
+    .header-container {
+        max-width: 100%;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: calc(100vh -120px);
+        margin-top: 20px;
+
+    }
+
+    .banner-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 80px;
+    }
+
+    .banner-left h1 {
+        font-size: 30px;
+        line-height: 40px;
+
+
+    }
+
+    .banner-left p {
+        font-size: 15px;
+        margin: 20px 0px;
+        align-items: center;
+        width: 350px;
+
+    }
+
+    .primary-btn {
+        padding: 10px 20px;
+    }
+
+    .banner-right {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: 350px;
+
+    }
+
+    .banner-right img {
+        width: 60%;
+        margin: 0px 0px 0px 20px;
+
+    }
+
+    .partner-container {
+        width: 100%;
+
+    }
+
+    .partner-company-logos {
+
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .partner-company-logo img {
+        width: 60px;
+    }
+
+    .product-container {
+        max-width: 100%;
+    }
+
+    .populer-products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product {
+        width: 350px;
+        margin: 10px 80px;
+
+
+    }
+
+    .product-img {
+        margin-top: 10px;
+    }
+
+    .news-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .news-letter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #336699;
+        height: 200px;
+        align-items: center;
+        margin-bottom: 100px;
+        border-radius: 5px;
+    }
+
+    .news-letter-title {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .news-letter-title h3 {
+        font-size: 15px;
+
+    }
+
+    .news-letter-title p {
+        font-size: 12px;
+        width: 400px;
+        margin-right: 0px;
+    }
+
+    .news-letter-icon {
+        font-size: 40px;
+        margin-left: 20px;
+
+    }
+
+    .news-letter-email {
+        width: 400px;
+        height: 30px;
+        margin-left: 40px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 15px;
+        font-size: 14px;
+
+    }
+
+    .subscribe-btn {
+        margin: 15px 25px;
+    }
+
+}
+
+
+/* Media quaries end */
